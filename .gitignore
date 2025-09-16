@@ -1,0 +1,25 @@
+# Android ignores
+/android-app/.cxx/
+/android-app/*.iml
+/android-app/.idea/
+/android-app/build/
+/android-app/.gradle/
+/android-app/captures/
+/android-app/local.properties
+/android-app/.externalNativeBuild/
+
+# ESP32 wifi-client ignores
+/wifi-client/.pio/
+/wifi-client/build/
+/wifi-client/.vscode/
+
+# ESP32 wifi-server ignores
+/wifi-server/.pio/
+/wifi-server/build/
+/wifi-server/.vscode/
+
+# General
+/.idea/
+/.vscode/
+.DS_Store
+
