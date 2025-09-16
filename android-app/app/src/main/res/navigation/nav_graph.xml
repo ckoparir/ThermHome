@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main_page">
+    <fragment
+        android:id="@+id/main_page"
+        android:name="com.example.thermhome.ui.MainPage"
+        android:label="main_page"
+        tools:layout="@layout/main_page">
+        <action
+            android:id="@+id/action_mainPage_to_settingsPage"
+            app:destination="@id/settingsPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsPage"
+        android:name="com.example.thermhome.ui.SettingsPage"
+        android:label="settings_page"
+        tools:layout="@layout/settings_page">
+        <action
+            android:id="@+id/action_settingsPage_to_mainPage"
+            app:destination="@id/main_page"
+            app:popUpTo="@id/main_page"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
