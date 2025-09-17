@@ -1,4 +1,4 @@
-# My Project (Work in Progress)
+# ThermHome (Work in Progress)
 
 Hello! 👋
 
