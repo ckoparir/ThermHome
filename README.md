@@ -1,3 +1,6 @@
+![PlatformIO](https://img.shields.io/badge/platformio-ready-orange)
+![License](https://img.shields.io/github/license/ckoparir/ThermHome)
+
 # ThermHome
 
 ESP8266 Wifi IoT Project with Android Application
