@@ -4,7 +4,6 @@ Hello! 👋
 
 This repository contains three projects:
 
-- **Android app** (Kotlin)
 - **ESP32 Firmware 1** (C++ / PlatformIO)
 - **ESP32 Firmware 2** (C++ / PlatformIO)
 
