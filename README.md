@@ -66,11 +66,38 @@ This script will prompt you for your WiFi credentials, server settings, and othe
 ## Installation
 
 1. **Install PlatformIO:**
-   - [VSCode Extension Guide](https://platformio.org/install/ide?install=vscode)
-   - Or, install via pip:
+
+   You can install PlatformIO using your preferred method:
+
+   - **VSCode Extension:**  
+     [VSCode Extension Guide](https://platformio.org/install/ide?install=vscode)
+
+   - **pip (Python):**
      ```sh
      pip install platformio
      ```
+
+   - **Linux package managers:**  
+     Some distributions provide PlatformIO or the `platformio` package in their official or community repositories. Try the command for your system:
+     - **Debian/Ubuntu (apt):**
+       ```sh
+       sudo apt update
+       sudo apt install platformio
+       ```
+     - **Fedora (dnf):**
+       ```sh
+       sudo dnf install platformio
+       ```
+     - **CentOS/RHEL (yum):**
+       ```sh
+       sudo yum install platformio
+       ```
+     - **Arch Linux/Manjaro (pacman):**
+       ```sh
+       sudo pacman -S platformio
+       ```
+
+   > If your package manager does not have PlatformIO, use the `pip` or VSCode extension options above.
 
 2. **Clone this repository:**
    ```sh
