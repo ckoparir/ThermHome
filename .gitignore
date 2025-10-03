@@ -11,15 +11,18 @@
 # ESP32 wifi-client ignores
 /wifi-client/.pio/
 /wifi-client/build/
+/wifi-client/.cache/
 /wifi-client/.vscode/
 
 # ESP32 wifi-server ignores
 /wifi-server/.pio/
 /wifi-server/build/
+/wifi-server/.cache/
 /wifi-server/.vscode/
 
 # General
 /.idea/
 /.vscode/
+/.cache/
 .DS_Store
 
