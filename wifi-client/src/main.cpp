@@ -55,10 +55,6 @@ void loop()
 
     if (httpCode > 0)
     {
-
-      // String payload = http.getString(); // Get the request response payload
-      // Serial.println(payload);           // Print the response payload
-
       // Parse response
       DynamicJsonDocument doc(2048);
       deserializeJson(doc, http.getStream());
@@ -72,5 +68,5 @@ void loop()
     http.end(); // Close connection
   }
 
-  delay(10000); // Send a request every 30 seconds
+  delay(10000); // Send a request every 10 seconds
 }

@@ -3,7 +3,7 @@
  * @author Caglar KOPARIR (ckoparir@gmail.com)
  * @brief
  * Simple home automation system with esp8266
- * and lm35. Project consist of two seperate
+ * and thermistor (or lm35). Project consist of two seperate
  * modules as client and server uses REST API
  * technology.
  *
@@ -11,16 +11,10 @@
  * @date 2021-10-18
  *
  * @copyright CTech Copyright (c) 2021
- *
  */
+
 #include "therm_util.h"
 
-void setup(void)
-{
-  initTerm();
-}
+void setup(void) { initTerm(); }
 
-void loop(void)
-{
-  serverLoop();
-}
+void loop(void) { serverLoop(); }
