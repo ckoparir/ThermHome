@@ -1,13 +1,3 @@
-# Android ignores
-/android-app/.cxx/
-/android-app/*.iml
-/android-app/.idea/
-/android-app/build/
-/android-app/.gradle/
-/android-app/captures/
-/android-app/local.properties
-/android-app/.externalNativeBuild/
-
 # ESP32 wifi-client ignores
 /wifi-client/.pio/
 /wifi-client/build/
