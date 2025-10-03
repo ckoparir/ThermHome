@@ -12,7 +12,6 @@ This repository contains three projects:
 
 You are welcome to explore the code. Please note:
 
-- The repository is **open-source under GPLv3**.
 - Contributions are welcome via pull requests.
 - If you have questions, suggestions, or want to discuss improvements, feel free to open an issue.
 
