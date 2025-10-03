@@ -5,6 +5,7 @@ ESP8266 Wifi IoT Project with Android Application
 ## Table of Contents
 - [About](#about)
 - [Project Structure](#project-structure)
+- [Preparation](#preparation)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Building & Uploading](#building--uploading)
