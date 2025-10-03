@@ -47,7 +47,15 @@ Before building, you must update certain configuration parameters for your WiFi 
 
 See the [README.md](wifi-client/README.md) and [README.md](wifi-server/README.md) in each subproject for more details.
 
-> **Tip:** Consider using an automation script or template for quick setup of your environment.
+### Using the setup.sh automation script
+
+You can automate the configuration of these parameters by running the provided setup script:
+
+```sh
+./setup.sh
+```
+This script will prompt you for your WiFi credentials, server settings, and other required values, then update all necessary files for both the client and server projects.
+>  **Windows users:** *Please use Git Bash to run setup.sh for best compatibility.*
 
 ## Requirements
 
