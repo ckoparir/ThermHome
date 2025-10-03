@@ -1,3 +1,6 @@
+![PlatformIO](https://img.shields.io/badge/platformio-ready-orange)
+![License](https://img.shields.io/github/license/ckoparir/ThermHome)
+
 # ThermHome WiFi Server
 
 This is the firmware for the ESP8266 device acting as a WiFi server in the ThermHome project.
