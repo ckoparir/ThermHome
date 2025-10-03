@@ -32,6 +32,22 @@ ThermHome is an IoT project for ESP8266 microcontrollers, enabling WiFi-based te
 - `wifi-client/`: ESP8266 Client firmware source code  
 - `wifi-server/`: ESP8266 Server firmware source code  
 
+## Preparation
+
+Before building, you must update certain configuration parameters for your WiFi environment and board:
+
+| File                               | Property(s)                      |
+|-------------------------------------|----------------------------------|
+| wifi-client/platformio.ini          | upload_port                      |
+| wifi-client/main.cpp                | ssid, password, serverName       |
+| wifi-server/include/therm_util.h    | SSID, SSID_PASS, GATEWAY         |
+| wifi-server/include/therm_config.h  | NTP_SERVER1, NTP_SERVER2, NTP_SERVER3 |
+| wifi-server/data/factory.conf       | ssid, ssid_pwd, timezone         |
+
+See the [README.md](wifi-client/README.md) and [README.md](wifi-server/README.md) in each subproject for more details.
+
+> **Tip:** Consider using an automation script or template for quick setup of your environment.
+
 ## Requirements
 
 - [PlatformIO](https://platformio.org/) (recommended via VSCode extension)
